@@ -1,0 +1,26 @@
+install git
+buat folder
+git init=>untuk memulai
+git config --global user.name "<suprihhermawan>"
+git config --global user.email "<suprih1987@gmail.com>"
+git config --global core.editor "code --wait"
+
+
+git status
+git add index.html
+git commit -m "memasukkan index(nama pesan)"
+git log==>melihat history
+
+
+git remote add remote-github ALAMAT HTTPS
+remote-github adalah nama
+contoh:
+git remote add remote-github https://github.com/suprihhermawan/latihangitbotcamp.git
+
+lakukan remote dengan perintah
+ git remote
+
+ git remote -v
+untuk melihat alamat 
+
+$ git push remote-github master
